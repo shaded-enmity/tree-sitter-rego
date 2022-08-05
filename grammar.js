@@ -92,8 +92,8 @@ module.exports = grammar({
                     $.else,
                     optional(
                         seq(
-                          $.assignment_operator,
-                          $.term,
+                            $.assignment_operator,
+                            $.term,
                         ),
                     ),
                 ),
